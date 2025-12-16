@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ki3ller&#39;Blog</title>
+  
+  
+  <link href="https://ki3ller.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ki3ller.github.io/"/>
+  <updated>2025-12-15T08:10:12.774Z</updated>
+  <id>https://ki3ller.github.io/</id>
+  
+  <author>
+    <name>Ki3ller</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025年度个人总结及一些碎碎念</title>
+    <link href="https://ki3ller.github.io/2025/12/14/suisuinian/"/>
+    <id>https://ki3ller.github.io/2025/12/14/suisuinian/</id>
+    <published>2025-12-14T13:38:28.000Z</published>
+    <updated>2025-12-15T08:10:12.774Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>今年似乎做了事，但结果又什么都没做。<br>在广东，浙江，北京，三个地方都呆了一段时间。<br>最后在下半年的时候，给自己买了一台笔记本，型号是华硕的天选6PRO，配置还不错。<br>想着以后学习电气时，需要一些高配置电脑，咬咬牙花1个w买的。<br>由于我目前的学历还是大专，在2026年时毕业，<br>我个人准备给明年上半年的自己设定两个目标——<br>一是拿到大专学历，提前准备专升本，我的数理化基础比较薄弱，我准备专攻这方面，听说B站宋浩老师的数学课讲的很好，到时候听他的。<br>二是转行，从计算机专业跨行到电气自动化。<br>我给自己找了一个从业三年的师傅，准备在他门下跟着学习相关技术，或许以后会转工科了。<br>梦想是以后能学好德语，成为一名电气自动化工程师，然后在德国工作相关岗位。</p><p>今年大概就这么结束了，希望明年上半年能完成自己定下的小目标。<br>此致，共勉！<br>各位同仁一起进步！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;今年似乎做了事，但结果又什么都没做。&lt;br&gt;在广东，浙江，北京，三个地方都呆了一段时间。&lt;br&gt;最后在下半年的时候，给自己买了一台笔记本，型</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电气自动化入门理论基础笔记总结（一）</title>
+    <link href="https://ki3ller.github.io/2025/12/09/dianqi1/"/>
+    <id>https://ki3ller.github.io/2025/12/09/dianqi1/</id>
+    <published>2025-12-09T13:24:54.000Z</published>
+    <updated>2025-12-09T13:27:03.184Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="电磁感应原理"><a href="#电磁感应原理" class="headerlink" title="电磁感应原理"></a>电磁感应原理</h1><p>电流产生磁场，磁场转换为机械能。变化磁场产生电动势（电能）。闭合导体中电动势产生电流，称为电磁感应现象。</p><h1 id="断路器（低压）"><a href="#断路器（低压）" class="headerlink" title="断路器（低压）"></a>断路器（低压）</h1><p>能接通&#x2F;分断正常&#x2F;非正常电路（如短路）的机械开关电器，符号单位：QF。</p><h2 id="低压断路器功能"><a href="#低压断路器功能" class="headerlink" title="低压断路器功能"></a>低压断路器功能</h2><ol><li><strong>过载长延时保护</strong>：秒级延时跳闸。</li><li><strong>短路短延时保护</strong>：毫秒级延时跳闸。</li><li><strong>短路瞬时保护</strong>：瞬间跳闸（大短路电流）。</li><li><strong>接地保护</strong>：零线电流超限时跳闸（设备带电保护）。</li><li><strong>漏电保护</strong>：电流未经过导体直接与外界连接时跳闸（防触电）。</li><li><strong>欠压&#x2F;过压保护</strong>：电压低于&#x2F;高于额定值时跳闸（选配功能）。</li></ol><h2 id="脱扣形式"><a href="#脱扣形式" class="headerlink" title="脱扣形式"></a>脱扣形式</h2><ol><li><strong>热磁脱扣</strong>：热脱扣（双金属片变形）+ 磁脱扣（磁场吸引衔铁）。热脱扣用于过载长延时，磁脱扣用于短路保护。</li><li><strong>双金属片</strong>：热磁脱扣形式，主要用于微型断路器。</li><li><strong>磁脱扣</strong>：瞬时脱扣（仅磁脱扣器）。</li><li><strong>复式脱扣</strong>：热磁+磁脱扣（兼具过载&#x2F;短路保护）。</li></ol><h1 id="漏电开关"><a href="#漏电开关" class="headerlink" title="漏电开关"></a>漏电开关</h1><p>用于继电保护与自动控制系统，增加触点数量及容量。只能通过小电流，用于控制电路。</p><h1 id="继电器"><a href="#继电器" class="headerlink" title="继电器"></a>继电器</h1><ol><li><strong>中间继电器</strong>：控制电路中传递信号。结构与交流接触器相似，但主触头通过小电流。无主触点，全部为线圈触点。</li><li><strong>直流电源供电</strong>：少数使用交流供电。</li></ol><h1 id="电磁阀"><a href="#电磁阀" class="headerlink" title="电磁阀"></a>电磁阀</h1><p>24W直流电驱动。</p><h1 id="供电系统保护接地"><a href="#供电系统保护接地" class="headerlink" title="供电系统保护接地"></a>供电系统保护接地</h1><p>PE线：保护地线；L1&#x2F;L2&#x2F;L3：相线。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;电磁感应原理&quot;&gt;&lt;a href=&quot;#电磁感应原理&quot; class=&quot;headerlink&quot; title=&quot;电磁感应原理&quot;&gt;&lt;/a&gt;电磁感应原理&lt;/h1&gt;&lt;p&gt;电流产生磁场，磁场转换为机械能。变化磁场产生电动势（电能）。闭合导体中电动势产生电流，称为电磁感应现象。&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>专升本数学（二 方程式的解法）</title>
+    <link href="https://ki3ller.github.io/2025/12/07/shuxue2/"/>
+    <id>https://ki3ller.github.io/2025/12/07/shuxue2/</id>
+    <published>2025-12-07T02:29:44.000Z</published>
+    <updated>2025-12-07T02:30:59.524Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一元二次方程开根法完全指南"><a href="#一元二次方程开根法完全指南" class="headerlink" title="一元二次方程开根法完全指南"></a>一元二次方程开根法完全指南</h1><h2 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h2><h3 id="1-1-什么是开根法？"><a href="#1-1-什么是开根法？" class="headerlink" title="1.1 什么是开根法？"></a>1.1 什么是开根法？</h3><p>开根法是解一元二次方程的一种方法，适用于方程能化为 <strong>“（某式）² &#x3D; 常数”</strong> 的形式。</p><h3 id="1-2-核心思想"><a href="#1-2-核心思想" class="headerlink" title="1.2 核心思想"></a>1.2 核心思想</h3><p>如果一个数的平方等于 (a)，那么这个数就是 (a) 的平方根，记作 (\pm\sqrt{a})。</p><hr><h2 id="二、三种常见类型及解法"><a href="#二、三种常见类型及解法" class="headerlink" title="二、三种常见类型及解法"></a>二、三种常见类型及解法</h2><h3 id="类型1：直接开平方-x-2-k"><a href="#类型1：直接开平方-x-2-k" class="headerlink" title="类型1：直接开平方 (x^2 &#x3D; k)"></a>类型1：直接开平方 (x^2 &#x3D; k)</h3><p><strong>步骤：</strong></p><ol><li>方程已是 (x^2 &#x3D; k) 形式</li><li>两边开平方：(x &#x3D; \pm\sqrt{k})</li><li>写出两个解</li></ol><p><strong>例题：</strong><br>[<br>x^2 &#x3D; 25 \quad\Rightarrow\quad x &#x3D; \pm 5<br>]</p><hr><h3 id="类型2：完全平方形式-x-pm-m-2-k"><a href="#类型2：完全平方形式-x-pm-m-2-k" class="headerlink" title="类型2：完全平方形式 ((x \pm m)^2 &#x3D; k)"></a>类型2：完全平方形式 ((x \pm m)^2 &#x3D; k)</h3><p><strong>步骤：</strong></p><ol><li>开平方：(x \pm m &#x3D; \pm\sqrt{k})</li><li>分成两个一次方程：<ul><li>(x \pm m &#x3D; \sqrt{k})</li><li>(x \pm m &#x3D; -\sqrt{k})</li></ul></li><li>分别解出 (x)</li></ol><p><strong>例题：</strong><br>[<br>(x-3)^2 &#x3D; 16<br>]<br>[<br>x-3 &#x3D; \pm 4<br>]<br>[<br>\begin{cases}<br>x-3 &#x3D; 4 &amp; \Rightarrow x &#x3D; 7 \<br>x-3 &#x3D; -4 &amp; \Rightarrow x &#x3D; -1<br>\end{cases}<br>]</p><hr><h3 id="类型3：需要先整理的形式-ax-2-c-或-ax-2-b-c"><a href="#类型3：需要先整理的形式-ax-2-c-或-ax-2-b-c" class="headerlink" title="类型3：需要先整理的形式 (ax^2 &#x3D; c) 或 (ax^2 + b &#x3D; c)"></a>类型3：需要先整理的形式 (ax^2 &#x3D; c) 或 (ax^2 + b &#x3D; c)</h3><p><strong>步骤：</strong></p><ol><li>移项：把常数项移到右边</li><li>系数化为1：两边除以 (x^2) 的系数</li><li>开平方求解</li></ol><p><strong>例题：</strong><br>[<br>4x^2 &#x3D; 100<br>]<br>[<br>x^2 &#x3D; 25 \quad\Rightarrow\quad x &#x3D; \pm 5<br>]</p><p>[<br>2x^2 - 18 &#x3D; 0<br>]<br>[<br>2x^2 &#x3D; 18<br>]<br>[<br>x^2 &#x3D; 9 \quad\Rightarrow\quad x &#x3D; \pm 3<br>]</p><hr><h2 id="三、关键技巧总结"><a href="#三、关键技巧总结" class="headerlink" title="三、关键技巧总结"></a>三、关键技巧总结</h2><h3 id="3-1-移项规则"><a href="#3-1-移项规则" class="headerlink" title="3.1 移项规则"></a>3.1 移项规则</h3><ul><li>从左边移到右边：<strong>变号</strong>（加变减，减变加）</li><li>目的：让平方项单独在一边</li></ul><h3 id="3-2-系数化为1"><a href="#3-2-系数化为1" class="headerlink" title="3.2 系数化为1"></a>3.2 系数化为1</h3><p>当方程形如 (ax^2 &#x3D; c) 时：<br>[<br>x^2 &#x3D; \frac{c}{a}<br>]</p><h3 id="3-3-开平方后的处理"><a href="#3-3-开平方后的处理" class="headerlink" title="3.3 开平方后的处理"></a>3.3 开平方后的处理</h3><p>从 ((x \pm m) &#x3D; \pm n) 到解出 (x)：</p><ul><li><strong>消去加法用减法</strong>：(x + m &#x3D; n \Rightarrow x &#x3D; n - m)</li><li><strong>消去减法用加法</strong>：(x - m &#x3D; n \Rightarrow x &#x3D; n + m)</li></ul><hr><h2 id="四、易错点提醒"><a href="#四、易错点提醒" class="headerlink" title="四、易错点提醒"></a>四、易错点提醒</h2><ol><li><strong>忘记正负号</strong>：开平方必须写 (\pm)</li><li><strong>计算错误</strong>：特别是负数运算<br>[<br>x + 4 &#x3D; -5 \Rightarrow x &#x3D; -5 - 4 &#x3D; -9<br>]</li><li><strong>系数化为1时除错</strong>：<br>[<br>9x^2 &#x3D; 144 \Rightarrow x^2 &#x3D; 16 \ (\text{不是 } x^2 &#x3D; 12)<br>]</li></ol><hr><h2 id="五、综合例题"><a href="#五、综合例题" class="headerlink" title="五、综合例题"></a>五、综合例题</h2><h3 id="例题1：直接型"><a href="#例题1：直接型" class="headerlink" title="例题1：直接型"></a>例题1：直接型</h3><p>[<br>x^2 - 64 &#x3D; 0<br>]<br><strong>解：</strong><br>[<br>x^2 &#x3D; 64 \Rightarrow x &#x3D; \pm 8<br>]</p><h3 id="例题2：完全平方型"><a href="#例题2：完全平方型" class="headerlink" title="例题2：完全平方型"></a>例题2：完全平方型</h3><p>[<br>(x+1)^2 - 16 &#x3D; 0<br>]<br><strong>解：</strong><br>[<br>(x+1)^2 &#x3D; 16<br>]<br>[<br>x+1 &#x3D; \pm 4<br>]<br>[<br>x &#x3D; 3 \ \text{或} \ x &#x3D; -5<br>]</p><h3 id="例题3：需要配方型（进阶）"><a href="#例题3：需要配方型（进阶）" class="headerlink" title="例题3：需要配方型（进阶）"></a>例题3：需要配方型（进阶）</h3><p>[<br>x^2 + 6x + 9 &#x3D; 36<br>]<br><strong>解：</strong></p><ol><li>认出左边是完全平方：((x+3)^2)</li><li>((x+3)^2 &#x3D; 36)</li><li>(x+3 &#x3D; \pm 6)</li><li>(x &#x3D; 3 \ \text{或} \ x &#x3D; -9)</li></ol><hr><h2 id="六、开根法-vs-十字相乘法"><a href="#六、开根法-vs-十字相乘法" class="headerlink" title="六、开根法 vs 十字相乘法"></a>六、开根法 vs 十字相乘法</h2><table><thead><tr><th>特征</th><th>开根法</th><th>十字相乘法</th></tr></thead><tbody><tr><td>适用形式</td><td>能化为 ((\text{式})^2&#x3D;k)</td><td>能分解为两个一次式乘积</td></tr><tr><td>常见类型</td><td>(x^2&#x3D;k), ((x\pm m)^2&#x3D;k)</td><td>(x^2+bx+c&#x3D;0)</td></tr><tr><td>关键步骤</td><td>开平方，取正负</td><td>找两个数满足积&#x3D;c、和&#x3D;b</td></tr><tr><td>解的数量</td><td>总是两个（可能相同）</td><td>总是两个（可能相同）</td></tr></tbody></table><hr><h2 id="七、练习自查清单"><a href="#七、练习自查清单" class="headerlink" title="七、练习自查清单"></a>七、练习自查清单</h2><p>做完题目后问自己：</p><ul><li><input disabled="" type="checkbox"> 是否写成”（某式）²&#x3D;常数”的形式了？</li><li><input disabled="" type="checkbox"> 开平方时写 (\pm) 了吗？</li><li><input disabled="" type="checkbox"> 解一次方程时移项符号对吗？</li><li><input disabled="" type="checkbox"> 最后的解有两个吗（除非两解相同）？</li></ul><hr><h2 id="八、学习心得"><a href="#八、学习心得" class="headerlink" title="八、学习心得"></a>八、学习心得</h2><p>开根法的本质是<strong>降次</strong>——把二次方程降为一次方程来解。关键是要善于识别方程是否可以表示为平方形式，然后利用平方根的定义求解。</p><p>掌握了开根法，你就为学习更一般的<strong>配方法</strong>和<strong>公式法</strong>打下了坚实基础。</p><hr><p><em>最后更新：2023年10月</em><br><em>标签：数学、一元二次方程、开根法、初中数学</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一元二次方程开根法完全指南&quot;&gt;&lt;a href=&quot;#一元二次方程开根法完全指南&quot; class=&quot;headerlink&quot; title=&quot;一元二次方程开根法完全指南&quot;&gt;&lt;/a&gt;一元二次方程开根法完全指南&lt;/h1&gt;&lt;h2 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>专升本数学（二 自学笔记）</title>
+    <link href="https://ki3ller.github.io/2025/12/06/shuxue1/"/>
+    <id>https://ki3ller.github.io/2025/12/06/shuxue1/</id>
+    <published>2025-12-06T06:32:57.000Z</published>
+    <updated>2025-12-06T06:34:37.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>一元二次方程的十字相乘法口诀：<br>拆两边相加再相乘，写括号：<br>二、最简单类型（a&#x3D;1）<br>形式：x²+bx+c&#x3D;0<br>口诀：找两数，和是b，积是c</p><p>解方程：x²+5x+6&#x3D;0<br>它们相+ &#x3D; 5<br>它们相* &#x3D; 6<br>2+3&#x3D;5<br>2*3&#x3D;6﻿<br>（x + 2 ）（x + 3）&#x3D;0<br>x&#x3D;-2 或 x&#x3D;-3，</p><p>x²+6x+8&#x3D;0<br>解方程：<br>它们相+ &#x3D; 6<br>它们相* &#x3D; 8<br>2+4&#x3D;6﻿<br>2*4&#x3D;8<br>两数即为即为2和4，<br>所以：（x+2）（x+4）&#x3D;0<br>所以：x &#x3D; -2 或 x&#x3D; -4</p><p>x2−7x+12&#x3D;0<br>解方程：<br>它们相+ &#x3D; -7；<br>它们相* &#x3D; 12；<br>检验：3 * 4或许能实现？<br>但是有-7在，所以需要换成负数；<br>所以应该是-3和-4；<br>-3+-4&#x3D;-7;﻿<br>-3 * -4&#x3D;12；<br>所以：﻿<br>（x +-3）（x+-4）&#x3D;0；<br>所以x&#x3D;3或4；</p><p>x²+3x−10&#x3D;0（c为负数）<br>解方程：<br>+&#x3D;3，<br>相* &#x3D; -10，﻿<br>初步判断是-2 + 5？﻿<br>算式：-2 + 5 &#x3D; 3；<br>-2 * 5 &#x3D;-10；<br>所以：两数即为，-2 和 5；<br>所以：（-2 + x）（ 5 + x）&#x3D;0；<br>x &#x3D; 2 或 x &#x3D; -5；</p><p>x²−2x−15&#x3D;0<br>解：﻿<br>它们相+&#x3D; -2；﻿<br>它们相* &#x3D; -15；<br>初步判断所以是3 和 - 5？<br>验证：-5 + 3 &#x3D; -2；<br>-5 * 3 &#x3D; -15；<br>所以两数为：-5 3；<br>所以：（-5 + x）（3 + x）&#x3D;0；<br>x&#x3D;5或 x &#x3D; -3；</p><p>x²+x−12&#x3D;0<br>解：<br>它们相+ &#x3D;-12；<br>它们相 * &#x3D; -12；<br>-3 * 4；<br>所以：<br>（x + -3 ）（x + 4）&#x3D;0；<br>所以：x&#x3D;3或x&#x3D;-4；</p><p>x﻿²−4x−21&#x3D;0<br>解：<br>它们相+&#x3D;4；<br>它们相乘-21；<br>检验结果：<br>7 + -3？<br>算数： 7 + -3 &#x3D; 4；<br>7 * -3 &#x3D; -21；<br>所以：（x+7）（x+-3）&#x3D;0；<br>所以：x&#x3D;-7或x&#x3D;3；</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一元二次方程的十字相乘法口诀：&lt;br&gt;拆两边相加再相乘，写括号：&lt;br&gt;二、最简单类型（a&amp;#x3D;1）&lt;br&gt;形式：x²+bx+c&amp;#x3D;0&lt;br&gt;口诀：找两数，和是b，积是c&lt;/p&gt;
+&lt;p&gt;解方程：x²+5x+6&amp;#x3D;0&lt;br&gt;它们相+ &amp;#x3D; 5&lt;b</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>专升本数学（一）</title>
+    <link href="https://ki3ller.github.io/2025/12/05/Shuxue/"/>
+    <id>https://ki3ller.github.io/2025/12/05/Shuxue/</id>
+    <published>2025-12-05T13:35:57.000Z</published>
+    <updated>2025-12-05T13:37:06.199Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数学知识点总结"><a href="#数学知识点总结" class="headerlink" title="数学知识点总结"></a>数学知识点总结</h1><h2 id="符号化简规则"><a href="#符号化简规则" class="headerlink" title="符号化简规则"></a>符号化简规则</h2><ol><li>&zwnj;<strong>+号</strong>&zwnj;：可直接省略</li><li>&zwnj;<strong>-号</strong>&zwnj;：奇负得正，负负得正</li><li>&zwnj;<strong>相反数</strong>&zwnj;：负号代表相反数</li></ol><h2 id="绝对值定义"><a href="#绝对值定义" class="headerlink" title="绝对值定义"></a>绝对值定义</h2><ol><li>&zwnj;<strong>正数</strong>&zwnj;：绝对值为其本身</li><li>&zwnj;<strong>负数</strong>&zwnj;：绝对值为负号后面的数</li><li>&zwnj;<strong>非负性</strong>&zwnj;：任意数的绝对值非负</li></ol><h2 id="有理数加法"><a href="#有理数加法" class="headerlink" title="有理数加法"></a>有理数加法</h2><ol><li>&zwnj;<strong>同号相加</strong>&zwnj;：取相同符号，绝对值相加</li><li>&zwnj;<strong>异号相加</strong>&zwnj;：取绝对值较大数的符号，用较大绝对值减去较小绝对值</li><li>&zwnj;<strong>相反数相加</strong>&zwnj;：和为零</li><li>&zwnj;<strong>零相加</strong>&zwnj;：结果为原数</li></ol><p>#一些练习题</p><h1 id="一元一次方程解法总结"><a href="#一元一次方程解法总结" class="headerlink" title="一元一次方程解法总结"></a>一元一次方程解法总结</h1><h2 id="一、解方程基本步骤"><a href="#一、解方程基本步骤" class="headerlink" title="一、解方程基本步骤"></a>一、解方程基本步骤</h2><ol><li>&zwnj;<strong>一找</strong>&zwnj;：找所有分母的最小公倍数（LCM）</li><li>&zwnj;<strong>二乘</strong>&zwnj;：方程两边每一项都乘以最小公倍数</li><li>&zwnj;<strong>三约</strong>&zwnj;：每个分数约分消去分母</li><li>&zwnj;<strong>四解</strong>&zwnj;：按常规步骤解整数方程</li></ol><h2 id="二、解方程示例"><a href="#二、解方程示例" class="headerlink" title="二、解方程示例"></a>二、解方程示例</h2><h3 id="1-简单移项"><a href="#1-简单移项" class="headerlink" title="1. 简单移项"></a>1. 简单移项</h3><p>&zwnj;<strong>方程</strong>&zwnj;：X + 5 &#x3D; 12<br>&zwnj;<strong>解</strong>&zwnj;：X &#x3D; 12 - 5<br>X &#x3D; 7</p><p>&zwnj;<strong>方程</strong>&zwnj;：X - 3 &#x3D; 8<br>&zwnj;<strong>解</strong>&zwnj;：X &#x3D; 8 + 3<br>X &#x3D; 11</p><h3 id="2-去括号"><a href="#2-去括号" class="headerlink" title="2. 去括号"></a>2. 去括号</h3><p>&zwnj;<strong>方程</strong>&zwnj;：2（x - 1） &#x3D; 10<br>&zwnj;<strong>解</strong>&zwnj;：2x - 2 &#x3D; 10<br>2x &#x3D; 10 + 2<br>2x &#x3D; 12<br>x &#x3D; 6</p><p>&zwnj;<strong>方程</strong>&zwnj;：3（x+2） &#x3D; 21<br>&zwnj;<strong>解</strong>&zwnj;：3x + 6 &#x3D; 21<br>3x &#x3D; 21 - 6<br>3x &#x3D; 15<br>x &#x3D; 5</p><h3 id="3-去分母"><a href="#3-去分母" class="headerlink" title="3. 去分母"></a>3. 去分母</h3><p>&zwnj;<strong>方程</strong>&zwnj;：三分之X &#x3D; 15<br>&zwnj;<strong>解</strong>&zwnj;：x &#x3D; 15 * 3<br>x &#x3D; 45</p><p>&zwnj;<strong>方程</strong>&zwnj;：五分之三X &#x3D; 3<br>&zwnj;<strong>解</strong>&zwnj;：3x &#x3D; 3 * 5<br>3x &#x3D; 15<br>x &#x3D; 5</p><p>&zwnj;<strong>方程</strong>&zwnj;：四分之三X &#x3D; 9<br>&zwnj;<strong>解</strong>&zwnj;：3x &#x3D; 9 * 4<br>3x &#x3D; 36<br>x &#x3D; 12</p><h3 id="4-复杂方程"><a href="#4-复杂方程" class="headerlink" title="4. 复杂方程"></a>4. 复杂方程</h3><p>&zwnj;<strong>方程</strong>&zwnj;：二分之X - 3 &#x3D; 1<br>&zwnj;<strong>解</strong>&zwnj;：x - 6 &#x3D; 2<br>x &#x3D; 2 + 6<br>x &#x3D; 8</p><p>&zwnj;<strong>方程</strong>&zwnj;：二分之X + 三分之X &#x3D; 10<br>&zwnj;<strong>解</strong>&zwnj;：3x + 2x &#x3D; 60<br>5x &#x3D; 60<br>x &#x3D; 12</p><p>&zwnj;<strong>方程</strong>&zwnj;：四分之X - 六分之X &#x3D; 1<br>&zwnj;<strong>解</strong>&zwnj;：6x - 4x &#x3D; 24<br>2x &#x3D; 24<br>x &#x3D; 12</p><p>&zwnj;<strong>方程</strong>&zwnj;：三分之x - 2 &#x3D; 4<br>&zwnj;<strong>解</strong>&zwnj;：x - 6 &#x3D; 12<br>x &#x3D; 12 + 6<br>x &#x3D; 18</p><p>&zwnj;<strong>方程</strong>&zwnj;：（五分之 2x + 1） &#x3D; 3<br>&zwnj;<strong>解</strong>&zwnj;：2x + 1 &#x3D; 15<br>2x &#x3D; 15 - 1<br>2x &#x3D; 14<br>x &#x3D; 7</p><p>&zwnj;<strong>方程</strong>&zwnj;：二分之x+1 &#x3D; 三分之X<br>&zwnj;<strong>解</strong>&zwnj;：3(x + 1) &#x3D; 2x<br>3x + 3 &#x3D; 2x<br>3x - 2x &#x3D; -3<br>x &#x3D; -3</p><p>&zwnj;<strong>方程</strong>&zwnj;：3&#x2F;2x-1 - 4&#x2F;3x-2 &#x3D; 1<br>&zwnj;<strong>解</strong>&zwnj;：去分母，两边乘以12<br>12 * (3&#x2F;2x-1 - 4&#x2F;3x-2) &#x3D; 1*12<br>18x - 16x &#x3D; 12 + 24<br>2x &#x3D; 36<br>x &#x3D; 18</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;数学知识点总结&quot;&gt;&lt;a href=&quot;#数学知识点总结&quot; class=&quot;headerlink&quot; title=&quot;数学知识点总结&quot;&gt;&lt;/a&gt;数学知识点总结&lt;/h1&gt;&lt;h2 id=&quot;符号化简规则&quot;&gt;&lt;a href=&quot;#符号化简规则&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
