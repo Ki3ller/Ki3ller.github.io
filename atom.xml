@@ -6,7 +6,7 @@
   <link href="https://ki3ller.github.io/atom.xml" rel="self"/>
   
   <link href="https://ki3ller.github.io/"/>
-  <updated>2025-12-15T08:10:12.774Z</updated>
+  <updated>2025-12-16T12:58:13.239Z</updated>
   <id>https://ki3ller.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决在上传GitHub时碰到的443网络相关问题</title>
+    <link href="https://ki3ller.github.io/2025/12/16/page1/"/>
+    <id>https://ki3ller.github.io/2025/12/16/page1/</id>
+    <published>2025-12-16T12:42:46.000Z</published>
+    <updated>2025-12-16T12:58:13.239Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>本来今天打算把一直搭建在本地的Hexo博客上传到Github上，这样方便以后在线访问，省的每次都要启动hexo。</p><p>在网上翻阅文档，配置完GitHub的sskkey，还有邮箱，用户名以后，使用hexo -d命令上传时，发现了如封面般提示的那个报错——</p><p><a href="https://imgchr.com/i/pZQv7a8"><img src="https://s41.ax1x.com/2025/12/16/pZQv7a8.png" alt="pZQv7a8.png"></a></p><p>当时震惊我了，我记得我挂了小蓝猫代理的，按道理说不会报错，正常逻辑操作应该是会上传成功。</p><p>结果，一直测试了三四遍以后，发现不是我配置的有问题，是网络上有问题，因为这段时间GitHub一直加强了屏蔽，所以普通的魔法已经不顶用了。</p><p>最后在网上找到了有用的方法，Steam++，用的加速Github——</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>挂上了steam++的网络节点，最后上传成功，才成功在互联网上部署了自己的博客。</p><p><a href="https://imgchr.com/i/pZQvzq0"><img src="https://s41.ax1x.com/2025/12/16/pZQvzq0.png" alt="pZQvzq0.png"></a></p><p>今天又解决了一个问题，结束了愉快的一天。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h2&gt;&lt;p&gt;本来今天打算把一直搭建在本地的Hexo博客上传到Github上，这样方便以后在线访问，省的每次都要启动hexo。&lt;/p&gt;
+&lt;p&gt;在网上翻阅文</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>2025年度个人总结及一些碎碎念</title>
