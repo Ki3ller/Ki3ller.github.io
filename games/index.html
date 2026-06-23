@@ -1,0 +1,266 @@
+<!-- themes/galtheme/layout/layout.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- themes/galtheme/layout/partial/head.ejs -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>我开发的 Galgame | 逍遥侯的个人博客</title>
+<link rel="stylesheet" href="/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body>
+  <div class="wrapper">
+    <!-- themes/galtheme/layout/partial/notice.ejs -->
+
+<div class="top-notice" id="topNotice">
+  <div class="container notice-container">
+    <span class="notice-text">
+      📢 本站包含GalGame内容讨论，请务必阅读
+      <a href="/rules/">避雷规则</a>
+    </span>
+    <button class="notice-close" id="closeNotice">&times;</button>
+  </div>
+</div>
+
+    <!-- themes/galtheme/layout/partial/header.ejs -->
+<header class="header">
+  <div class="container header-container">
+    <div class="logo">
+      <a href="/">逍遥侯的个人博客</a>
+    </div>
+    <button class="menu-toggle" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      
+        <a href="/" class="nav-link ">
+          首页
+        </a>
+      
+        <a href="/about" class="nav-link ">
+          关于我
+        </a>
+      
+        <a href="/games" class="nav-link ">
+          游戏作品
+        </a>
+      
+        <a href="/rules" class="nav-link ">
+          避雷规则
+        </a>
+      
+    </nav>
+  </div>
+</header>
+    <main class="main container">
+      <!-- themes/galtheme/layout/page.ejs -->
+<div class="page-content">
+  <h1 class="page-title">我开发的 Galgame</h1>
+  <div class="page-body">
+    <!-- 页面顶部欢迎语 -->
+<div class="games-header">
+  <h1>🎮 我的 Galgame 作品集</h1>
+  <p>《极品》系列开篇之作</p>
+</div>
+
+<!-- 作品卡片网格（目前只有一部，以后多了直接复制卡片即可） -->
+<div class="game-grid">
+
+  <!-- 卡片 1：《极品商贾》 -->
+  <div class="game-card">
+    <div class="card-image">
+      <img src="/images/jipin01_image.png" alt="极品商贾" loading="lazy">
+      <span class="badge">开发中</span>
+      <!-- 如果你是"开发中"就改成 class="badge development" -->
+    </div>
+    <div class="card-body">
+      <h3>《极品商贾》</h3>
+      <div class="tags">
+        <span>Ren'Py</span>      <!-- 这里改成你实际用的引擎 -->
+        <span>纯爱后宫</span>
+        <span>热血爽文</span>
+        <span>男性向</span>
+        <span>架空历史</span>
+      </div>
+      <p>极品系列的第一部作品。从一间破旧小店起家，在权谋与柔情中缔造属于你的商业帝国。</p>
+      <a href="/jipin-shangjia/" class="btn-demo">🎮 下载试玩</a>
+      <!-- 把 # 替换成你的真实下载链接 -->
+    </div>
+  </div>
+
+  <!-- 以后出了第二部，复制上面整段 <div class="game-card"> 粘贴到下面即可 -->
+
+</div>
+
+<!-- ========== 炫酷特效 CSS（保持原样，不需要改） ========== -->
+<style>
+/* 页面头部特效 */
+.games-header {
+  text-align: center;
+  padding: 30px 0 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.games-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.games-header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  -webkit-text-fill-color: #666;
+}
+
+/* 卡片网格布局 */
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* 单张卡片 - 玻璃态 + 浮动特效 */
+.game-card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(0);
+}
+
+/* 悬停特效：上浮 + 发光阴影 + 轻微旋转 */
+.game-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.35);
+  border-color: rgba(102, 126, 234, 0.5);
+}
+
+/* 卡片图片区域 */
+.card-image {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.game-card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+/* 状态徽章 */
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 14px;
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+.badge.development {
+  background: #ffa94d;
+  box-shadow: 0 4px 12px rgba(255, 169, 77, 0.4);
+}
+.badge.planning {
+  background: #74c0fc;
+  box-shadow: 0 4px 12px rgba(116, 192, 252, 0.4);
+}
+
+/* 卡片内容体 */
+.card-body {
+  padding: 18px 20px 24px;
+}
+.card-body h3 {
+  font-size: 1.2rem;
+  margin: 0 0 8px 0;
+  color: #1a1a2e;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.tags span {
+  background: #f0f0f5;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #555;
+}
+.card-body p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 8px 0 16px;
+}
+
+/* 按钮特效 */
+.btn-demo {
+  display: inline-block;
+  padding: 8px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff !important;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+.btn-demo:hover {
+  box-shadow: 0 6px 25px rgba(102, 126, 234, 0.5);
+  transform: translateY(-2px);
+  color: #fff !important;
+}
+</style>
+
+<!-- ========== 入场动画 JS（保持原样） ========== -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.game-card');
+    cards.forEach((card, index) => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(30px)';
+      setTimeout(() => {
+        card.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+      }, 150 * index);
+    });
+  });
+</script>
+  </div>
+</div>
+    </main>
+    <!-- themes/galtheme/layout/partial/footer.ejs -->
+<footer class="footer">
+  <div class="container">
+
+       <p>本站由 <a href="https://afdian.com/@yourname" target="_blank">爱发电</a> 赞助驱动 ❤️</p>
+
+  </div>
+</footer>
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>
